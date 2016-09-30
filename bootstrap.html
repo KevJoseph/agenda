@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+    <title>Formulario Simple PHP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="messages_es.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+          <br>
+          <br>
+          <br>
+    <div class="container well">
+        <form action="proceso.php" method="post">
+               <div class="form-group">
+                   <h1>Mi primer Formulario <span class="glyphicon glyphicon-apple"></span></h1>
+               </div>
+                <div class="form-group">
+                    <label>*Nombre</label>
+                    <input type="text" name="caja_nombre" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Apellidos</label>
+                    <input type="text" name="caja_apellido" class="form-control">
+                </div>
+                <div class="from-group">
+                    <label for="">Edad</label>
+                    <input type="text" name="caja_edad" class="form-control">
+                </div>
+                <br>
+                <div class="form-group">
+                    <button class="btn btn-success">Cancelar</button>
+                    <button type ="submit" class="btn btn-primary">Enviar</button>
+                </div>
+        </form>
+       </div>
+</body>
+</html>
